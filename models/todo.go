@@ -12,7 +12,7 @@ func CreateATodo(todo *Todo) (err error) {
 	_, err = dao.DB.Exec("INSERT INTO kala (title,status) VALUES (?,?)", &todo.Title, &todo.Status)
 	return err
 }
-func GetTodoList() (todo *Todo,err error) {
+func GetTodoList() (todo []*Todo,err error) {
 	err = dao.DB.Select(&todo, "SELECT id,title,status FROM kala")
 	if err != nil {
 		return nil, err

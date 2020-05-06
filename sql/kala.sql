@@ -1,7 +1,11 @@
 /*
  Navicat Premium Data Transfer
 
+<<<<<<< HEAD
  Source Server         : kala.sql
+=======
+ Source Server         : localhost
+>>>>>>> origin
  Source Server Type    : MySQL
  Source Server Version : 50725
  Source Host           : localhost:3306
