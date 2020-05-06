@@ -1,11 +1,11 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : aliyun.go_orm
+ Source Server         : kala.sql
  Source Server Type    : MySQL
  Source Server Version : 50725
- Source Host           : qocat.com:3306
- Source Schema         : go_orm
+ Source Host           : localhost:3306
+ Source Schema         : kala
 
  Target Server Type    : MySQL
  Target Server Version : 50725
